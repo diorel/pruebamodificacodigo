@@ -221,7 +221,7 @@
                     </ToolTip>
                 </ToolTipService.ToolTip>
             </Button>
-            <sdk:Label x:Name="labeltest" Foreground="Black" Content="Raúl es Gay" Width="200" Height="30" Canvas.Left="10" Canvas.Top="10" FontSize="16" FontFamily="MyriadPro-Light.otf#Myriad Pro Light"></sdk:Label>
+            <sdk:Label x:Name="labeltest" Foreground="Black" Content="Github" Width="200" Height="30" Canvas.Left="10" Canvas.Top="10" FontSize="16" FontFamily="MyriadPro-Light.otf#Myriad Pro Light"></sdk:Label>
 
         </StackPanel>
 
