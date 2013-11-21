@@ -20,7 +20,6 @@
             <RowDefinition Height="64*" />
             <RowDefinition Height="732*" />
         </Grid.RowDefinitions>
-
         <Rectangle Fill="WhiteSmoke" Margin="-18,-10,9,0" Stroke="#FFAEB4BA" RadiusX="2" RadiusY="2" Grid.RowSpan="2" Grid.ColumnSpan="2">
             <Rectangle.Effect>
                 <DropShadowEffect BlurRadius="10" ShadowDepth="0" Color="#FF5D7183" Opacity="0.5" />
@@ -171,7 +170,6 @@
                 </liquid:ItemViewer>
             </StackPanel>
         </StackPanel>
-        
         <StackPanel Width="250" Margin="350,0,15,20" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Height="180">
             <Image Name="image2" Stretch="UniformToFill" Source="/Share_PointSIOC;component/images/logocompartamosbco.jpg" />
         </StackPanel>
@@ -223,6 +221,8 @@
                     </ToolTip>
                 </ToolTipService.ToolTip>
             </Button>
+            <sdk:Label x:Name="labeltest" Foreground="Black" Content="Raúl es Gay" Width="200" Height="30" Canvas.Left="10" Canvas.Top="10" FontSize="16" FontFamily="MyriadPro-Light.otf#Myriad Pro Light"></sdk:Label>
+
         </StackPanel>
 
         <StackPanel VerticalAlignment="Bottom" d:LayoutOverrides="Width" HorizontalAlignment="Center" Margin="401,0,312,25" Height="86" Width="247" Grid.Column="1" Grid.Row="1" Visibility="Collapsed" >
@@ -230,6 +230,5 @@
                     Height="50" Cursor="Hand" Click="btShow_Click" />
         <CheckBox x:Name="ckSetShowUpAnimation" Content="Presentación personalizada" FontSize="16" VerticalAlignment="Center" Foreground="#FFACACAC" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Background="#FF282828" BorderBrush="#FFBDBDBD" Margin="0,10,0,0" IsChecked="True" />
         </StackPanel>
-        
     </Grid>
 </UserControl>
